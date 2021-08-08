@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <tittle></tittle>
+        <link rel="stylesheet" type="text/css" href="log.css">
+
+    </head>
+    <body>
+        <center>
+            
+        <p id="demo"></p>
+        <header><pre>LOGIN USERID</pre></header>
+        <div class="abc">
+        
+        <form>
+        <lable>Enter username:--</lable>
+        <input type="text" id="richapriya" placeholder="user name"><br><br>
+        <lable>Passwords:--</lable>
+        <input type="text" id="richa123" placeholder="password"><br><br>
+        <input type="button" value="login!" onclick="f1()">
+        
+        </form>
+        </div>
+        </center>
+    
+<script>
+    function f1()
+    
+                {
+                var a = document.getElementById("richapriya").value;
+                var b = document.getElementById("richa123").value;
+                if(a=="richapriya" && b=="richa123"){
+                    document.getElementById("demo").innerHTML="<h1>richapriya</h1>";
+                }
+                else{
+                    document.getElementById("demo").innerHTML="welcome not";
+                }
+            }
+
+        </script>
+
+    </body>
+
+</html>
